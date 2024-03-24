@@ -11,6 +11,5 @@ pipenv install apache-airflow
 pipenv install apache-airflow-providers-databricks
 mkdir dags
 airflow db init
-airflow users create --username admin --firstname admin --lastname admin --role Admin --email admin@admin.com
 
 airflow providers list
